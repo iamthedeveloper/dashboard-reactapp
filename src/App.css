@@ -1,0 +1,121 @@
+.container {
+    border: 1px solid #DDEDFF;;
+    background-color: rgb(243, 242, 242);
+    color: rgb(179, 200, 218);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.panel {
+  border: 1px solid #DDEDFF;;
+  margin-bottom: 1rem;
+  color: black;
+}
+#barChart{
+  background-color: lightgrey;
+  border-radius: 4px;
+  padding-top: 10px;
+}
+.navbar {
+  border-radius: 25px;
+  height: 50px;
+  background-color:#c3c1bf!important;
+  margin: 4px;
+  border-radius: 10px;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: larger;
+  color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand {
+  font-size: large;
+  font-weight: 700;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color:#c3c1bf!important;
+}
+
+.dropdown-item:hover{
+  background-color:#50504d!important;
+}
+.dropdown {
+  margin: 5px;
+}
+
+.card {
+  border-radius: 6px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #FFFFFF;
+  color: #252422;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+  min-height: 150px;
+  max-width: 200px;
+}
+
+.top-row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.title-row {
+  font-size: 2em;
+  background-color:#c3c1bf!important;
+  min-height: 110px;
+  border-right: 1px solid #efeeee;;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  
+}
+.count-row {
+  font-size: 2em;
+  background-color:#c3c1bf!important;
+  min-height: 110px;
+  padding-right: 0px;
+  padding-left: 0px;
+  text-align: -webkit-right;
+  display: flex;
+  align-items: center;
+}
+
+.hangingRow {
+  background-color: rgb(243, 242, 242);
+  border-radius: 1%;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+.table {
+  line-height: 4px;
+  width: 87%;
+  text-align: center;
+  color: #b7751d !important;
+  
+}
+
+.tdWarnColor {
+  background-color: crimson !important;
+  color: #fff;
+}
+.tdPrimaryColor {
+  color: #fff;
+}
+td:nth-child(1) {  
+  color: #b7751d;
+  font-weight: 700;
+}
+caption {
+  text-align: center;
+  color: #b7751d !important;
+  font-weight: 900;
+  margin-top: 10px;
+  caption-side: top;
+}
+.ReactTable .rt-td {
+  text-align: center;
+}

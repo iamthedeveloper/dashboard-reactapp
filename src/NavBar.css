@@ -1,0 +1,29 @@
+.navbar {
+    border-radius: 25px;
+    height: 50px;
+    background-color:#c3c1bf!important;
+    margin: 4px;
+    border-radius: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: larger;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar-light .navbar-brand {
+    font-size: large;
+    font-weight: 700;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color:#c3c1bf!important;
+  }
+  
+  .dropdown-item:hover{
+    background-color:#50504d!important;
+  }
+  .dropdown {
+    margin: 5px;
+  }

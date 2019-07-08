@@ -1,0 +1,26 @@
+.table {
+    line-height: 4px;
+    width: 87%;
+    text-align: center;
+    color: #b7751d !important;
+    
+  }
+  
+  .tdWarnColor {
+    background-color: crimson !important;
+    color: #fff;
+  }
+  .tdPrimaryColor {
+    color: #fff;
+  }
+  td:nth-child(1) {  
+    color: #b7751d;
+    font-weight: 700;
+  }
+  caption {
+    text-align: center;
+    color: #b7751d !important;
+    font-weight: 900;
+    margin-top: 10px;
+    caption-side: top;
+  }
